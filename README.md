@@ -56,4 +56,4 @@ and make data insights accessible to anyone, not just analysts.
 ## Let's Connect
 
 Always happy to talk AI, analytics, and emerging tech.
-Find me on [LinkedIn] linkedin.com/in/karlmercer/
+Find me at linkedin.com/in/karlmercer/
