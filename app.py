@@ -103,9 +103,9 @@ suggestions = [
     "Which department should we prioritize for a loyalty program?",
     "What is our biggest churn risk and how do we fix it?",
     "Which products have the highest reorder rates?",
-    "What day of the week do customers order most?",
     "If we could improve one thing to increase revenue, what would it be?",
-    "Which customer segment should we target first?"
+    "Which customer segment should we target first?",
+    "What day of the week do customers order most?"
 ]
 for i, suggestion in enumerate(suggestions):
     if cols[i % 3].button(suggestion, use_container_width=True):
