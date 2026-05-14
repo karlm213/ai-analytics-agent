@@ -158,7 +158,7 @@ st.markdown("""
 # Demo notice
 st.markdown("""
 <div class="demo-notice">
-    ⚡ <strong>Live Demo:</strong> Running on sample data. Full version analyzes 3.4M Instacart orders(Kaggle Data) — 
+    ⚡</strong> Running on sample data. Full version analyzes 3.4M Instacart orders(Kaggle Data) — 
     available for live demo. Connect on <strong>LinkedIn</strong>.
 </div>
 """, unsafe_allow_html=True)
