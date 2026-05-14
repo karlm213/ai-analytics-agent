@@ -53,6 +53,23 @@ and make data insights accessible to anyone, not just analysts.
 - [ ] Deploy live on Streamlit Cloud
 - [ ] Connect to real Instacart dataset
 
+## Data Setup
+
+This project uses the Instacart Market Basket Analysis dataset from Kaggle.
+
+**To run this project locally:**
+1. Download the dataset from [Kaggle](https://www.kaggle.com/competitions/instacart-market-basket-analysis/data)
+2. Create a `/data` folder in the project root
+3. Place these 5 CSV files inside it:
+   - `orders.csv`
+   - `order_products__train.csv`
+   - `products.csv`
+   - `aisles.csv`
+   - `departments.csv`
+
+> **Note:** The data folder is excluded from this repo via `.gitignore` 
+> due to file size and Kaggle's redistribution terms. 
+> You must download it directly from Kaggle (free account required).
 ## Let's Connect
 
 Always happy to talk AI, analytics, and emerging tech.
