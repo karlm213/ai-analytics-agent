@@ -100,12 +100,23 @@ st.markdown("""
         transform: translateY(-1px);
     }
 
-    /* Chat messages */
+/* Chat messages */
     [data-testid="stChatMessage"] {
-        background: #1e2130 !important;
+        background: #2d3250 !important;
         border-radius: 12px !important;
-        border: 1px solid rgba(255,255,255,0.08) !important;
+        border: 1px solid rgba(102, 126, 234, 0.3) !important;
         margin-bottom: 0.75rem !important;
+        color: #f0f0f0 !important;
+    }
+    
+    [data-testid="stChatMessage"] p,
+    [data-testid="stChatMessage"] li,
+    [data-testid="stChatMessage"] h1,
+    [data-testid="stChatMessage"] h2,
+    [data-testid="stChatMessage"] h3,
+    [data-testid="stChatMessage"] span,
+    [data-testid="stChatMessage"] strong {
+        color: #f0f0f0 !important;
     }
 
     /* Chat input */
