@@ -151,14 +151,14 @@ st.markdown("""
 st.markdown("""
 <div class="main-header">
     <h1>🛒 Instacart AI Analytics Agent</h1>
-    <p>Ask plain-English questions about the Instacart Market Basket Analysis dataset — powered by Claude AI AI</p>
+    <p>Ask plain-English questions about the Instacart Market Basket Analysis (Kaggle dataset) — powered by Claude AI AI</p>
 </div>
 """, unsafe_allow_html=True)
 
 # Demo notice
 st.markdown("""
 <div class="demo-notice">
-    ⚡ <strong>Live Demo:</strong> Running on sample data. Full version analyzes 3.4M real Instacart orders — 
+    ⚡ <strong>Live Demo:</strong> Running on sample data. Full version analyzes 3.4M Instacart orders(Kaggle Data) — 
     available for live demo. Connect on <strong>LinkedIn</strong>.
 </div>
 """, unsafe_allow_html=True)
