@@ -22,12 +22,17 @@ st.info("⚡ **Live Demo Note:** This hosted version runs on a sample dataset du
 # Load data — only runs once thanks to caching
 @st.cache_data
 def load_data():
-    with st.spinner("Loading 3.4M orders... (first load takes ~20 seconds)"):
-        orders = pd.read_csv("data/orders.csv")
-        products = pd.read_csv("data/products.csv")
-        aisles = pd.read_csv("data/aisles.csv")
-        departments = pd.read_csv("data/departments.csv")
-        order_products = pd.read_csv("data/order_products__train.csv")
+    with st.spinner("Loading data..."):
+        # Use real data if available locally, sample data for cloud demo
+        if os.path.exists("data/orders.csv"):
+            orders = pd.read_csv("data/orders.csv")
+            products = pd.read_csv("data/products.csv")
+            aisles = pd.read_csv("data/aisles.csv")
+            departments = pd.read_csv("data/departments.csv")
+            order_products = pd.read_csv("data/order_products__train.csv")
+        else:
+            from sample_data import get_sample_data
+            orders, products, aisles, departments, order_products = get_sample_data()
 
         products_full = products.merge(aisles, on="aisle_id").merge(departments, on="department_id")
 
