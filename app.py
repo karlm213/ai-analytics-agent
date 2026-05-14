@@ -17,6 +17,7 @@ st.set_page_config(
 st.title("🛒 Instacart AI Analytics Agent")
 st.markdown("Ask plain-English questions about 3.4 million real Instacart orders — powered by Claude AI")
 st.divider()
+st.info("⚡ **Live Demo Note:** This hosted version runs on a sample dataset due to cloud memory limits. The full version analyzes 3.4 million real Instacart orders and is available for live demo — contact me on LinkedIn.")
 
 # Load data — only runs once thanks to caching
 @st.cache_data
