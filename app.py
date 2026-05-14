@@ -151,7 +151,7 @@ st.markdown("""
 st.markdown("""
 <div class="main-header">
     <h1>🛒 Instacart AI Analytics Agent</h1>
-    <p>Ask plain-English questions about real retail order data — powered by Claude AI</p>
+    <p>Ask plain-English questions about the Instacart Market Basket Analysis dataset — powered by Claude AI AI</p>
 </div>
 """, unsafe_allow_html=True)
 
