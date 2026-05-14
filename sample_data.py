@@ -85,10 +85,7 @@ orders_data = {
     "order_number": np.random.randint(1, 20, n_orders),
     "order_dow": np.random.choice([0,1,2,3,4,5,6], n_orders,
                   p=[0.11, 0.14, 0.16, 0.15, 0.14, 0.16, 0.14]),
-"order_hour_of_day": np.random.choice(range(24), n_orders,
-                      p=[0.01,0.01,0.01,0.01,0.01,0.02,0.03,0.06,
-                         0.09,0.10,0.10,0.09,0.08,0.07,0.06,0.05,
-                         0.05,0.04,0.04,0.03,0.02,0.01,0.01,0.02]),
+"order_hour_of_day": np.random.choice(range(24), n_orders),
     "days_since_prior_order": np.random.choice(
         [1,2,3,4,5,6,7,8,9,10,14,21,30],
         n_orders,
