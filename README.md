@@ -75,4 +75,8 @@ This project uses the Instacart Market Basket Analysis dataset from Kaggle.
 Always happy to talk AI, analytics, and emerging tech.
 Find me at linkedin.com/in/karlmercer/
 
-LIVE APP: https://ai-analytics-agent-instacart.streamlit.app/
+
+| App | Description | Link |
+|-----|-------------|------|
+| 🛒 Single Source Agent | AI analytics on retail order data | [Launch App](https://ai-analytics-agent-retail.streamlit.app) |
+| 🔄 Multi-Source Agent | Intelligent routing across Orders, Customers & Financials | [Launch App](https://ai-analytics-agent-multi.streamlit.app) |
