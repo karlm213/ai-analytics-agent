@@ -42,16 +42,6 @@ and make data insights accessible to anyone, not just analysts.
 
 6. Run the agent: `python agent.py`
 
-## Project Roadmap
-
-- [x] Connect to LLM API
-- [x] Load and analyze retail data
-- [x] Build conversational Q&A agent
-- [ ] Add RAG for larger datasets
-- [ ] Add text-to-SQL capability
-- [ ] Build Streamlit web UI
-- [ ] Deploy live on Streamlit Cloud
-- [ ] Connect to real Instacart dataset
 
 ## Data Setup
 
