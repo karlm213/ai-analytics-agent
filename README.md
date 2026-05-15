@@ -69,4 +69,4 @@ Find me at linkedin.com/in/karlmercer/
 | App | Description | Link |
 |-----|-------------|------|
 | 🛒 Single Source Agent | AI analytics on retail order data | [Launch App](https://ai-analytics-agent-retail.streamlit.app) |
-| 🔄 Multi-Source Agent | Intelligent routing across Orders, Customers & Financials | [Launch App](https://ai-analytics-agent-multi.streamlit.app) |
+| 🔄 Multi-Source Agent | Intelligent routing across Orders, Customers & Financials | [Launch App](https://ai-analytics-agent-retail-multiple-sources.streamlit.app) |
